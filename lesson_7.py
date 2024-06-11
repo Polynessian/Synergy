@@ -10,9 +10,9 @@ else:
 
 #Задание №2
 
-row = 'i   f   f ghjj  h'
+row = input('Введите строку для преобразования: ')
         
 while '  ' in row:
     row = row.replace('  ', ' ', 1)
     
-print(row, row.count(' '))
+print(row)
