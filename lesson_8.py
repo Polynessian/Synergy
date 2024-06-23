@@ -75,4 +75,3 @@ elif count == 0:
 else:
     print(f"Понадобится {count} лодок")
     
-print(weights)
