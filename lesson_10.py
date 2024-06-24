@@ -31,7 +31,19 @@ print(f"Это {list(inner_dct.values())[0]} по кличке {list(pets.keys()
 
 number_dct = {}
 
-for k in range(10, -6, -1):
+start = int(input('Введите первое число: '))
+stop = int(input('Введите второе число: '))
+step = 0
+
+if start > stop:
+    step = -1
+    stop -= 1
+else:
+    step = 1
+    stop += 1
+    
+
+for k in range(start, stop, step):
     number_dct.setdefault(k, k**k)
     
 print(number_dct)
