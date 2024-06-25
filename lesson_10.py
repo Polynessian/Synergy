@@ -25,7 +25,7 @@ else:
     
 pets.setdefault(pet_name, inner_dct)
 
-print(f"Это {list(inner_dct.values())[0]} по кличке {list(pets.keys())[0]}. Возраст питомца: {list(inner_dct.values())[1]} {age}. Имя владельца: {list(inner_dct.values())[2]}")
+print(f"Это {list(inner_dct.values())[0]} по кличке '{list(pets.keys())[0]}'. Возраст питомца: {list(inner_dct.values())[1]} {age}. Имя владельца: {list(inner_dct.values())[2]}")
 
 #Задание №2
 
